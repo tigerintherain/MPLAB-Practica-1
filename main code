@@ -26,6 +26,7 @@ void main(void) {
          LATAbits.LATA4= led_OFF;
             __delay_ms (ONE_SECOND); //delay function XC8 compile
 }
+}
     //functions section
 void portsInit (void){//ports configuration
     ANSELA = digital;//set portA as digital
