@@ -18,6 +18,7 @@ void portsInit(void);
 void main(void) {
     //configurations
     while(1){
+        portsInit();
         if (PORTBbits.RB4 ==pushed )//if button pushed then:
             LATAbits.LATA7 =led_OFF;//Turn on the RA4 LED
         else//                      otherwise:
